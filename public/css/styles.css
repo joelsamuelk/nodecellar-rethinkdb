@@ -1,5 +1,10 @@
 .brand {
     font-family: 'Arvo';
+    background-image: url('img/logo.svg');
+    padding: 50px 10px 10px !important;
+    margin-left: -20px;
+    width: 250px;
+    background-repeat: no-repeat;
 }
 
 a.plain:link {
@@ -64,15 +69,17 @@ legend {
 
 .home-hero {
     font-family: "Andika";
-    font-size: 36;
+    font-size: 36px;
     color: white;
-    background-image: url('img/bg.jpg');
+    background-image: url('img/home.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -19px;
     padding: 180px;
     text-align : center;
     text-shadow: 1px 1px 1px #000;
+    height: 400px;
+    max-width: 100%;
 }
 
 @media only screen and ( max-width : 1000px ) {
